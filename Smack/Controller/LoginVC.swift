@@ -1,29 +1,27 @@
 //
-//  ChannelVC.swift
+//  LoginVC.swift
 //  Smack
 //
-//  Created by Malcolm Edwards on 10/9/18.
+//  Created by Malcolm Edwards on 11/9/18.
 //  Copyright © 2018 Xenophile Games. All rights reserved.
 //
 
 import UIKit
 
-class ChannelVC: UIViewController {
+class LoginVC: UIViewController {
 
-    //Outlets
-    @IBOutlet weak var loginBtn: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.revealViewController()?.rearViewRevealWidth = self.view.frame.size.width - 60
+        // Do any additional setup after loading the view.
     }
     
-    @IBAction func loginBtnPressed(_ sender: Any) {
-        performSegue(withIdentifier: TO_LOGIN, sender: nil)
+    @IBAction func closePressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
-
+    
+    
     /*
     // MARK: - Navigation
 
