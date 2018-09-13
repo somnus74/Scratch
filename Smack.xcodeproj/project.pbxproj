@@ -11,6 +11,8 @@
 		D4163D3421473D9200983F27 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4163D3321473D9200983F27 /* Constants.swift */; };
 		D4163D36214757B900983F27 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4163D35214757B900983F27 /* LoginVC.swift */; };
 		D4163D3821475BE600983F27 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4163D3721475BE600983F27 /* CreateAccountVC.swift */; };
+		D42FF0C72149D34A00408A55 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42FF0C62149D34A00408A55 /* AuthService.swift */; };
+		D42FF0C92149F3AD00408A55 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42FF0C82149F3AD00408A55 /* RoundedButton.swift */; };
 		D4682498214638C000BA7462 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4682497214638BF00BA7462 /* SWRevealViewController.m */; };
 		D468249A21464B9D00BA7462 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468249921464B9D00BA7462 /* GradientView.swift */; };
 		D46D9BBD214602DB0078E478 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46D9BBC214602DB0078E478 /* ChatVC.swift */; };
@@ -28,6 +30,8 @@
 		D4163D3321473D9200983F27 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D4163D35214757B900983F27 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D4163D3721475BE600983F27 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		D42FF0C62149D34A00408A55 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		D42FF0C82149F3AD00408A55 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		D4682495214638BE00BA7462 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		D4682496214638BF00BA7462 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		D4682497214638BF00BA7462 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -73,6 +77,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		D42FF0C52149D33400408A55 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D42FF0C62149D34A00408A55 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		D46D9BB42145FB960078E478 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				D468249921464B9D00BA7462 /* GradientView.swift */,
+				D42FF0C82149F3AD00408A55 /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -130,6 +143,7 @@
 		D48A8FAA2145E373003CB0D3 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				D42FF0C52149D33400408A55 /* Services */,
 				D4163D3221473D7C00983F27 /* Utilities */,
 				D46D9BBB214602A00078E478 /* Controller */,
 				D46D9BBA2146029A0078E478 /* View */,
@@ -278,7 +292,9 @@
 				D468249A21464B9D00BA7462 /* GradientView.swift in Sources */,
 				D4682498214638C000BA7462 /* SWRevealViewController.m in Sources */,
 				D4163D3821475BE600983F27 /* CreateAccountVC.swift in Sources */,
+				D42FF0C92149F3AD00408A55 /* RoundedButton.swift in Sources */,
 				D4163D3421473D9200983F27 /* Constants.swift in Sources */,
+				D42FF0C72149D34A00408A55 /* AuthService.swift in Sources */,
 				D48A8FAC2145E373003CB0D3 /* AppDelegate.swift in Sources */,
 				D46D9BBF214602ED0078E478 /* ChannelVC.swift in Sources */,
 			);
