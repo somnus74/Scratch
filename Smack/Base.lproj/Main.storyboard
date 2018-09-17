@@ -507,17 +507,17 @@
                                 </connections>
                             </segmentedControl>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="igm-PN-riO">
-                                <rect key="frame" x="10" y="76" width="300" height="492"/>
+                                <rect key="frame" x="0.0" y="76" width="320" height="492"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="WhJ-bo-X8W">
                                     <size key="itemSize" width="100" height="100"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="avatarCell" id="vSF-F4-jcF" customClass="AvatarCell" customModule="Smack" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        <rect key="frame" x="20" y="0.0" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
@@ -543,13 +543,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="igm-PN-riO" firstAttribute="leading" secondItem="7s6-42-QGC" secondAttribute="leading" constant="10" id="L7M-t3-cPv"/>
+                            <constraint firstItem="igm-PN-riO" firstAttribute="leading" secondItem="7s6-42-QGC" secondAttribute="leading" id="L7M-t3-cPv"/>
                             <constraint firstItem="FfT-uP-e1L" firstAttribute="leading" secondItem="7s6-42-QGC" secondAttribute="leading" constant="16" id="NyR-Y3-oe5"/>
                             <constraint firstItem="WRz-P4-tHF" firstAttribute="top" secondItem="7s6-42-QGC" secondAttribute="top" constant="8" id="V7v-N6-mIe"/>
                             <constraint firstItem="WRz-P4-tHF" firstAttribute="centerX" secondItem="dew-a0-sEV" secondAttribute="centerX" id="eaJ-rv-Wnc"/>
                             <constraint firstItem="FfT-uP-e1L" firstAttribute="top" secondItem="7s6-42-QGC" secondAttribute="top" constant="8" id="jBd-wS-OjY"/>
                             <constraint firstItem="igm-PN-riO" firstAttribute="top" secondItem="FfT-uP-e1L" secondAttribute="bottom" constant="20" id="kn1-SQ-9kX"/>
-                            <constraint firstItem="7s6-42-QGC" firstAttribute="trailing" secondItem="igm-PN-riO" secondAttribute="trailing" constant="10" id="ods-zE-zaJ"/>
+                            <constraint firstItem="7s6-42-QGC" firstAttribute="trailing" secondItem="igm-PN-riO" secondAttribute="trailing" id="ods-zE-zaJ"/>
                             <constraint firstItem="7s6-42-QGC" firstAttribute="bottom" secondItem="igm-PN-riO" secondAttribute="bottom" id="wtR-1o-In6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7s6-42-QGC"/>
