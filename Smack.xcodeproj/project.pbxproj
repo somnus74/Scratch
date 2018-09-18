@@ -30,6 +30,7 @@
 		D48A8FB62145E376003CB0D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48A8FB42145E376003CB0D3 /* LaunchScreen.storyboard */; };
 		D4BB012F2150E14B00A0A015 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB012E2150E14B00A0A015 /* MessageService.swift */; };
 		D4BB01312150E18500A0A015 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB01302150E18500A0A015 /* Channel.swift */; };
+		D4CE5E2821511693009D9A8C /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CE5E2721511693009D9A8C /* ChannelCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		D48A8FB72145E376003CB0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4BB012E2150E14B00A0A015 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		D4BB01302150E18500A0A015 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		D4CE5E2721511693009D9A8C /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		F065A6E79BD209EC5A4044DC /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -136,6 +138,7 @@
 				D42FF0C82149F3AD00408A55 /* RoundedButton.swift */,
 				D40C0682214F217900BEFDAF /* AvatarCell.swift */,
 				D40C0684214F3D0100BEFDAF /* CircleImage.swift */,
+				D4CE5E2721511693009D9A8C /* ChannelCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				D4BB01312150E18500A0A015 /* Channel.swift in Sources */,
 				D468249A21464B9D00BA7462 /* GradientView.swift in Sources */,
 				D4682498214638C000BA7462 /* SWRevealViewController.m in Sources */,
+				D4CE5E2821511693009D9A8C /* ChannelCell.swift in Sources */,
 				D4163D3821475BE600983F27 /* CreateAccountVC.swift in Sources */,
 				D40D552F214B350000EF149C /* UserDataService.swift in Sources */,
 				D42FF0C92149F3AD00408A55 /* RoundedButton.swift in Sources */,
