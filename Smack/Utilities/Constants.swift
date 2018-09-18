@@ -23,6 +23,7 @@ let BEARER_HEADER = [
     "Authorization": "Bearer \(AuthService.instance.authToken)",
     "Contect-Type": "application/json; charset = utf-8"
 ]
+let URL_GET_CHANNELS = "\(BASE_URL)channel/"
 
 
 // Colors

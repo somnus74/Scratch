@@ -28,6 +28,8 @@
 		D48A8FB12145E373003CB0D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48A8FAF2145E373003CB0D3 /* Main.storyboard */; };
 		D48A8FB32145E376003CB0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48A8FB22145E376003CB0D3 /* Assets.xcassets */; };
 		D48A8FB62145E376003CB0D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D48A8FB42145E376003CB0D3 /* LaunchScreen.storyboard */; };
+		D4BB012F2150E14B00A0A015 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB012E2150E14B00A0A015 /* MessageService.swift */; };
+		D4BB01312150E18500A0A015 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BB01302150E18500A0A015 /* Channel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,8 @@
 		D48A8FB22145E376003CB0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D48A8FB52145E376003CB0D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D48A8FB72145E376003CB0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4BB012E2150E14B00A0A015 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		D4BB01302150E18500A0A015 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		F065A6E79BD209EC5A4044DC /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,6 +106,7 @@
 			children = (
 				D42FF0C62149D34A00408A55 /* AuthService.swift */,
 				D40D552E214B34FF00EF149C /* UserDataService.swift */,
+				D4BB012E2150E14B00A0A015 /* MessageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 		D46D9BB9214602910078E478 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D4BB01302150E18500A0A015 /* Channel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -319,6 +325,8 @@
 				D40C0681214F1EE600BEFDAF /* AvatarPickerVC.swift in Sources */,
 				D410936F2150707700D83FCB /* ProfileVC.swift in Sources */,
 				D4163D36214757B900983F27 /* LoginVC.swift in Sources */,
+				D4BB012F2150E14B00A0A015 /* MessageService.swift in Sources */,
+				D4BB01312150E18500A0A015 /* Channel.swift in Sources */,
 				D468249A21464B9D00BA7462 /* GradientView.swift in Sources */,
 				D4682498214638C000BA7462 /* SWRevealViewController.m in Sources */,
 				D4163D3821475BE600983F27 /* CreateAccountVC.swift in Sources */,
