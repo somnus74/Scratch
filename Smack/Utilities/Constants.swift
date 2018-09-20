@@ -24,6 +24,7 @@ let BEARER_HEADER = [
     "Contect-Type": "application/json; charset = utf-8"
 ]
 let URL_GET_CHANNELS = "\(BASE_URL)channel/"
+let URL_GET_MESSAGES = "\(BASE_URL)message/byChannel/"
 
 
 // Colors
@@ -31,6 +32,8 @@ let smackPurplePlaceHolder = #colorLiteral(red: 0.3266413212, green: 0.421520113
 
 // Notification constants
 let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notifUserDataChanged")
+let NOTIF_CHANNELS_LOADED = Notification.Name("channelsLoaded")
+let NOTIF_CHANNEL_SELECTED = Notification.Name("channelSelected")
 
 
 // Segues
